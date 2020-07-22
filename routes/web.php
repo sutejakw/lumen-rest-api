@@ -11,7 +11,4 @@
 |
 */
 
-$router->get('/', function () use ($router) {
-    return 'halo';
-});
-
+$router->post('/produk', 'ProdukController@create');
